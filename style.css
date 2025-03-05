@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3e442b;
+    max-height: 100vh;
+
+}
+.head{
+    color: #d6eeff;
+    text-align: center;
+}
+.head p{
+    font-size: 12px;
+}
+h1{
+    color: #d6eeff;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.boxes{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    opacity: 1;
+}
+.box{
+    width: 30%;
+    border: 2px solid black;
+    border: none;
+    height: 5rem;
+    border-radius: 10px;
+    background-color: #6a7062;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#reset{
+    padding: 0.5rem 1rem;
+    background-color: #d6eeff;
+    color: #3e442b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.popup{
+    background-color: #d6eeff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: auto;
+    right: auto;
+    visibility: hidden;
+}
+#playagain{
+    background-color: black;
+    color: white;
+    width: 60%;
+    padding: 10px;
+    cursor: pointer;
+}
+@media (min-width:300px) and (max-width:800px)
+{
+    .boxes{
+        width: 60%;
+        gap: 0.5rem;
+    }
+    .popup{
+        padding: 1rem;
+    }
+
+}
