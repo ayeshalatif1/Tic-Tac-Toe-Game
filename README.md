@@ -1,9 +1,3 @@
---Introduction(#Tic-Tac-Toe-Game)
---Features(#Features)
---Link(#Live-Site-URL)
---How To Play(#How-To-Play)
---Build With(#Technologies-Used)
-
 
 ###Tic-Tac-Toe Game 
 
@@ -43,5 +37,6 @@ https://ayeshalatif1.github.io/Tic-Tac-Toe-Game/
 -CSS for styling and layout
 
 -JavaScript for game logic and interactivity
+
 
 
