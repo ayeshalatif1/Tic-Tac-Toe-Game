@@ -1,36 +1,47 @@
-Tic-Tac-Toe Game 
+--Introduction(#Tic-Tac-Toe-Game)
+--Features(#Features)
+--Link(#Live-Site-URL)
+--How To Play(#How-To-Play)
+--Build With(#Technologies-Used)
+
+
+###Tic-Tac-Toe Game 
 
 A simple Tic-Tac-Toe game built using HTML, CSS, and JavaScript as part of a learning project.
-Live at: https://ayeshalatif1.github.io/Tic-Tac-Toe-Game/
 
- Features
+###Features
 
-Two-player turn-based gameplay
+-Two-player turn-based gameplay
 
-Highlights the winner or declares a draw
+-Highlights the winner or declares a draw
 
-Reset and Play Again functionality
+-Reset and Play Again functionality
 
-Interactive UI with color-coded moves
+-Interactive UI with color-coded moves
 
- How to Play
+###Live Site URL
 
-Click on any empty box to make a move.
+https://ayeshalatif1.github.io/Tic-Tac-Toe-Game/
 
-Players take turns marking the board with 0  and X .
+###How to Play
 
-The first player to complete a winning pattern wins the game.
+-Click on any empty box to make a move.
 
-If all boxes are filled without a winner, the game ends in a draw.
+-Players take turns marking the board with 0  and X .
 
-Click Play Again or Reset to restart the game.
+-The first player to complete a winning pattern wins the game.
+
+-If all boxes are filled without a winner, the game ends in a draw.
+
+-Click Play Again or Reset to restart the game.
 
 
- Technologies Used
+###Technologies Used
 
-HTML for the game structure
+-HTML for the game structure
 
-CSS for styling and layout
+-CSS for styling and layout
 
-JavaScript for game logic and interactivity
+-JavaScript for game logic and interactivity
+
 
